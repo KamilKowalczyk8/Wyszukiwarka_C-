@@ -9,11 +9,11 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-string wyszukaj;
+string szukaj;
 string input;
 cout<<"Podaj wyszukiwanie ";
-cin>>wyszukaj;
- regex regularne(wyszukaj); 
+cin>>szukaj;
+ regex regularne(szukaj); 
 	ofstream plik1;
    ifstream plik;  
    
