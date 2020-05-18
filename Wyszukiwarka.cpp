@@ -32,7 +32,7 @@ cin>>szukaj;
                         break;
                 if(regex_match(input,regularne))
 				{
-                        cout<<input;
+                        cout <<"["<<"{"<<input<<"}"<<"]"<< "\n";
                                
                 }
                 else
